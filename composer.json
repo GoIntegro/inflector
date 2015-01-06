@@ -1,0 +1,42 @@
+{
+    "name": "gointegro/raml",
+    "description": "GOintegro RAML Lib",
+    "keywords": ["inflection", "singularize", "pluralize", "doctrine"],
+    "homepage": "http://www.gointegro.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javier Lorenzana",
+            "email": "javier.lorenzana@gointegro.com"
+        },
+        {
+            "name": "Adolfo Castro Menna",
+            "email": "adolfo.casto@gointegro.com"
+        },
+        {
+            "name": "GOintegro Devs",
+            "homepage": "http://www.gointegro.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "doctrine/inflector": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpdocumentor/phpdocumentor": "*",
+        "codeception/codeception": "*",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "GoIntegro\\Inflector": "" }
+    },
+    "target-dir": "GoIntegro/Inflector",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.9.x-dev"
+        }
+    }
+}
