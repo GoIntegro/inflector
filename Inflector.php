@@ -32,11 +32,18 @@ class Inflector
 
     /**
      * @param string $word
+     * @param boolean $consecutive Whether to allow consecutive capitals.
      * @return string
      */
-    public static function hyphenate($word)
+    public static function hyphenate($word, $consecutive = FALSE)
     {
-        $word = preg_replace('/([^^])([A-Z])/', '\\1-\\2', $word);
+        if (!$consecutive) {
+            $word = preg_replace('/([^^])([A-Z])/', '\\1-\\2', $word);
+            // Needs to happen after the first one.
+            $word = preg_replace('/([A-Z])([A-Z])/', '\\1-\\2', $word);
+        } else {
+            $word = preg_replace('/([^A-Z])([A-Z])/', '\\1-\\2', $word);
+        }
 
         return strtolower($word);
     }

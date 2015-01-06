@@ -25,7 +25,6 @@
     "require-dev": {
         "phpunit/phpunit": "*",
         "phpdocumentor/phpdocumentor": "*",
-        "codeception/codeception": "*",
         "codeclimate/php-test-reporter": "dev-master"
     },
     "autoload": {
