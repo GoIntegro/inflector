@@ -1,5 +1,5 @@
 {
-    "name": "gointegro/raml",
+    "name": "gointegro/inflector",
     "description": "GOintegro RAML Lib",
     "keywords": ["inflection", "singularize", "pluralize", "doctrine"],
     "homepage": "http://www.gointegro.com",
