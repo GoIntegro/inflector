@@ -1,6 +1,6 @@
 {
     "name": "gointegro/inflector",
-    "description": "GOintegro RAML Lib",
+    "description": "GOintegro Inflector Lib",
     "keywords": ["inflection", "singularize", "pluralize", "doctrine"],
     "homepage": "http://www.gointegro.com",
     "license": "MIT",
