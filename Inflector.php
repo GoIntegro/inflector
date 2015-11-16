@@ -8,7 +8,7 @@
 namespace GoIntegro\Inflector;
 
 // Utils.
-use Doctrine\Common\Util\Inflector as DoctrineInflector;
+use Doctrine\Common\Inflector\Inflector as DoctrineInflector;
 
 class Inflector
 {
