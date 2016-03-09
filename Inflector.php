@@ -57,6 +57,14 @@ class Inflector
     }
 
     /**
+     * @see DoctrineInflector::singularize
+     */
+    public static function singularize($word)
+    {
+        return DoctrineInflector::singularize($word);
+    }
+
+    /**
      * @param string $word
      * @return string
      */
